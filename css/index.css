@@ -277,24 +277,26 @@ footer{
     width: 100%;
     justify-content: center;
     overflow-x:hidden;
+    
   }
   .header{
-    margin: 10px;
+    margin: 0 0 5%;
     flex-direction: column-reverse;
     height: 100%;
   }
   
-  header #nav{
-    flex-wrap: column-reverse;
-    align-content: stretch;
+  .header #nav{
+    align-content: flex-start;
+    width: 95%;
   }
-  header .logo{
+  .header .logo{
     margin-bottom: 15px;
     align-items: center;
   }
-  header #nav #links{
-    width: 100%;
+  .header #nav #links{
+    width: 10%;
     padding-bottom: 5px;
+    justify-items: space-evenly;
   }
   .mid {
     width: 100%;
